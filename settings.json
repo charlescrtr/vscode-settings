@@ -1,0 +1,154 @@
+{
+  // Editor rules
+  // ====================================================================================
+  "editor.fontFamily": "Input Mono",
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 20,
+  "editor.wordWrap": "on",
+  "explorer.confirmDelete": false,
+  "editor.scrollBeyondLastLine": true,
+  "editor.formatOnPaste": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "editor.matchBrackets": "never",
+  "editor.tabCompletion": "on",
+  "editor.parameterHints.enabled": false,
+  "editor.colorDecorators": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
+  },
+  "window.closeWhenEmpty": true,
+  //
+  // Workbench rules
+  // ====================================================================================
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": true,
+  "workbench.startupEditor": "none",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffc600",
+    "terminalCursor.foreground": "#ffc600"
+  },
+  "workbench.colorTheme": "One Monokai",
+  "explorer.confirmDragAndDrop": false,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "twig": "html",
+    "blade": "html",
+  },
+  //
+  // Language-specific rules
+  // ====================================================================================
+  "git.ignoreMissingGitWarning": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "twig-language-2.hover": false,
+  "html.format.enable": true,
+  "[blade]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "[go]": {
+    "editor.tabSize": 4
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.fontSize": 14,
+    "editor.lineHeight": 28,
+    "editor.fontFamily": "Input Sans"
+  },
+  "[php]": {
+    "editor.tabSize": 4
+  },
+  "[rust]": {
+    "editor.detectIndentation": true,
+  },
+  "[twig]": {},
+  "[vue]": {
+    "editor.formatOnSave": false,
+    "togglequotes.chars": [
+      "\"",
+      "'",
+      "`"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.fontFamily": "Input Mono",
+  },
+  //
+  // Formatting rules
+  // ====================================================================================
+  "eslint.validate": [
+    "vue",
+    "html",
+    "javascript"
+  ],
+  "prettier.disableLanguages": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "blade.format.enable": true,
+  //
+  // PHP rules
+  // ====================================================================================
+  "php.validate.executablePath": "/usr/bin/php",
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.lastDownload": 1597651405888,
+  //
+  // Misc
+  // ====================================================================================
+  "files.associations": {
+    "*.postcss": "vue-postcss",
+    ".stylelintrc": "json",
+    "*.pcss": "vue-postcss",
+    "*.tmpl": "html"
+  },
+  "outline.problems.enabled": false,
+  "outline.problems.badges": false,
+  "vsicons.associations.files": [
+    {
+      "icon": "css",
+      "extensions": [
+        "css"
+      ]
+    }
+  ],
+  "beautify.language": {
+    "html": [
+      "html",
+      "blade"
+    ]
+  },
+  "go.useLanguageServer": true,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "window.zoomLevel": 0,
+  "phpcs.executablePath": "/Users/creator3/.composer/vendor/bin/phpcs",
+  "editor.renameOnType": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "extensions.ignoreRecommendations": false,
+}
